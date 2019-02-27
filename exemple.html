@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Masquer le texte</title>
+		
+	</head>
+	<body>
+		<h1>Masquer le texte</h1>
+		<a href="#" class="declencheur">Cliquer ici pour masquer </a>
+		<div class="hide">
+			<p> je suis le texte qui va etre masquer quand on va cliquer </p>
+		</div>
+		
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+		$(".declencheur").click(
+			function(){
+				console.log('jy suis');
+				$('.hide').hide();
+				
+			});
+		</script>
+	</body>
+ 
+</html>
